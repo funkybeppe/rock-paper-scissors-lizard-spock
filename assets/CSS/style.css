@@ -119,3 +119,28 @@ margin-top: 30px;
     background: #034f84; 
    
 }
+
+
+#rules {
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+
+#history {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 25px;
+    padding: 40px;
+}
+
+#video {
+    text-align: center;
+}
+
+#video-rules {
+    height: 500px;
+    width: 70%;
+    padding-top: 40px;
+}
