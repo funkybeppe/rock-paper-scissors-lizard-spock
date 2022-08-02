@@ -97,8 +97,7 @@ margin-top: 30px;
 
 .btn {
     margin: 0 auto;
-    width: 200px;
-    height: 60px;
+    padding: 10px 28px 10px 28px;
     letter-spacing: 1.2px;
     font-size: 20px;
     margin-top: 25px;
@@ -127,12 +126,20 @@ margin-top: 30px;
     font-size: 25px;
 }
 
+#rules > h2 {
+    font-size: 60px;
+}
+
 #history {
     margin: auto;
     text-align: center;
     width: 80%;
     font-size: 25px;
     padding: 40px;
+}
+
+#history > h2 {
+    font-size: 60px;
 }
 
 #video {
@@ -143,4 +150,5 @@ margin-top: 30px;
     height: 500px;
     width: 70%;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
