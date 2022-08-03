@@ -11,10 +11,12 @@ const spockDiv = document.getElementById('v');
 
 function getComputerCoice() {
     const choices  = ['r','p','s','l','v'];
+    const randomNumber = Math.floor(Math.random() * 5);
+    return choices[randomNumber];
 }
 
 function game(userChoice) {
-
+    const computerChoice = getComputerCoice();
 }
 
 function main() {
