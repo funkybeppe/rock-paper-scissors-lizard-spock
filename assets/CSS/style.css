@@ -152,3 +152,130 @@ margin-top: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+/* Media Queries */
+
+/* For large to screens sizes from  1050px wide down */
+
+@media screen and (max-width: 1050px) {
+    .choice {
+        padding: 1px;
+    }
+
+    .score-area {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .game-area {
+        width: 80%;
+        height: 600px;
+    }
+
+    #action-message {
+        font-size: 25px;
+    }
+}
+
+/* For tablet sized screens from  790px wide down */
+
+@media screen and (max-width: 788px) {
+    .score-area {
+        width: 100%;
+    }
+
+    #history {
+        width: 90%;
+    }
+}
+
+/* For large mobile device sized screens from  580px wide down */
+
+@media screen and (max-width: 580px) {
+    header > h1 {
+        font-size: 40px;
+    }
+
+    .game-area {
+        width: 90%;
+        height: 640px;
+    }
+
+    .result {
+        font-size: 30px;
+    }
+    
+}
+
+/* For large mobile device sized screens from  505px wide down */
+
+@media screen and (max-width: 505px) {
+
+    .choice {
+        margin: 0 10px;
+    }
+
+    .score-area {
+        font-size: 20px;
+    }
+}
+
+/* For large mobile device sized screens from  450px wide down */
+
+@media screen and (max-width: 448px) {
+
+    .result {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .choices {
+        margin-top: 20px;
+    }
+
+    .choice {
+        margin-top: 10px;
+    }
+    
+    .scores {
+        padding: 40px;
+    }
+}
+
+/* For large mobile device sized screens from  450px wide down */
+
+@media screen and (max-width: 448px) {
+    .choice  > img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .game-area {
+        height: 500px;
+    }
+}
+
+/* For large mobile device sized screens from  450px wide down */
+
+@media screen and (max-width: 384px) {
+
+    header > h1 {
+        font-size: 30px;  
+    }
+
+    .game-area {
+        height: 620px;
+    }
+
+    .result {
+        font-size: 25px;
+    }
+
+    #action-message {
+        font-size: 20px;
+    }
+
+    .scores {
+        padding: 20px;
+    }
+}
