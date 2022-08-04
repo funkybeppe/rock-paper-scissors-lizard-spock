@@ -17,6 +17,13 @@ function getComputerCoice() {
 
 function game(userChoice) {
     const computerChoice = getComputerCoice();
+    switch(userChoice + computerChoice) {
+        case "rs": 
+        case "pr":
+        case "sp":
+        case "":
+        case "":
+    }
 }
 
 function main() {
