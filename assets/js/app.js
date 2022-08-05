@@ -46,7 +46,7 @@ function lose(userChoice, computerChoice) {
 
 function draw(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw `;
+    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw 😐 `;
     userChoice_div.classList.add('yellow-glow');
     setTimeout(function() {userChoice_div.classList.remove('yellow-glow') }, 300 );
 }
