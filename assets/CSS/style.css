@@ -64,6 +64,23 @@ header > h1 {
     background: #034f84;
 }
 
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.yellow-glow {
+    border: 4px solid #e7ed3b;
+    box-shadow: 0 0 10px #9fa326;
+}
+
+
 #action-message {
 text-align: center;
 font-size: 30px;
