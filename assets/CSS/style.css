@@ -263,7 +263,7 @@ header > h1 {
     }
 }
 
-/* For large mobile device sized screens from  450px wide down */
+/* For large mobile device sized screens from  448px wide down */
 
 @media screen and (max-width: 448px) {
 
@@ -294,7 +294,7 @@ header > h1 {
     }
 }
 
-/* For large mobile device sized screens from  px wide down */
+/* For medium mobile device sized screens from  410px wide down */
 
 @media screen and (max-width: 410px) {
 
