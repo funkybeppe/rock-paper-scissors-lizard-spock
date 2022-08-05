@@ -19,10 +19,35 @@ function game(userChoice) {
     const computerChoice = getComputerCoice();
     switch(userChoice + computerChoice) {
         case "rs": 
+        case "rl":
         case "pr":
+        case "pv":
         case "sp":
-        case "":
-        case "":
+        case "sl":
+        case "lp":
+        case "lv":
+        case "vr":
+        case "vs":
+            console.log('YOU WIN');
+            break;
+        case "rp":
+        case "rv":
+        case "ps":
+        case "pl":
+        case "sr":
+        case "sv":
+        case "lr":
+        case "ls":
+        case "vp":
+        case "vl":
+            console.log('YOU LOSE');
+            break;
+        case "rr":
+        case "pp":
+        case "ss":
+        case "ll":
+        case "vv":
+            console.log("IT'S A DRAW")
     }
 }
 
