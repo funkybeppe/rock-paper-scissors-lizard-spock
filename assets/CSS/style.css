@@ -15,8 +15,8 @@ a {
 }
 
 header {
-padding: 20px;
-background: #36486b;
+    padding: 20px;
+    background: #36486b;
 }
 
 header > h1 {
@@ -82,10 +82,10 @@ header > h1 {
 
 
 #action-message {
-text-align: center;
-font-size: 30px;
-color: white;
-margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
 }
 
 .scores {
@@ -175,9 +175,6 @@ margin-top: 30px;
 /* For large to screens sizes from  1050px wide down */
 
 @media screen and (max-width: 1050px) {
-    .choice {
-        padding: 1px;
-    }
 
     .score-area {
         width: 70%;
@@ -263,8 +260,8 @@ margin-top: 30px;
 
 @media screen and (max-width: 448px) {
     .choice  > img{
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 
     .game-area {

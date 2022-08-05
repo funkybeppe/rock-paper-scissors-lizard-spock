@@ -24,21 +24,31 @@ function convertToWord(letter) {
 }
 
 function win(userChoice, computerChoice) {
+    const userChoice_div = document.getElementById(userChoice);
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 🎉`;
+    userChoice_div.classList.add('green-glow');
+    setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 300 );
+
 }
 
 function lose(userChoice, computerChoice) {
+    const userChoice_div = document.getElementById(userChoice);
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lose 😢`;
+    userChoice_div.classList.add('red-glow');
+    setTimeout(function() {userChoice_div.classList.remove('red-glow') }, 300 );
 }
 
 function draw(userChoice, computerChoice) {
+    const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw `;
+    userChoice_div.classList.add('yellow-glow');
+    setTimeout(function() {userChoice_div.classList.remove('yellow-glow') }, 300 );
 }
 function game(userChoice) {
     const computerChoice = getComputerCoice();
