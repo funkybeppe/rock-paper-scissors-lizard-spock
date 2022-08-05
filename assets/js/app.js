@@ -30,12 +30,15 @@ function win(userChoice, computerChoice) {
     result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 🎉`;
 }
 
-function lose() {
-
+function lose(userChoice, computerChoice) {
+    computerScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lose 😢`;
 }
 
-function draw() {
-
+function draw(userChoice, computerChoice) {
+    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw `;
 }
 function game(userChoice) {
     const computerChoice = getComputerCoice();
