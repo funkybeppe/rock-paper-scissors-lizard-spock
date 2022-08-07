@@ -310,11 +310,12 @@ header > h1 {
 @media screen and (max-width: 410px) {
 
     header > h1 {
-        font-size: 30px;  
+        font-size: 25px;  
     }
 
     .game-area {
         height: 620px;
+        margin: 20px auto;
     }
 
     .result {
@@ -333,6 +334,34 @@ header > h1 {
 /* For small mobile device sized screens from  360px wide down */
 
 @media screen and (max-width: 360px) {
+
+    header > h1 {
+        font-size: 20px;  
+    }
+
+    .game-area {
+        margin: 20px auto;
+        height: 440px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+
+
+    .choice  > img{
+        width: 40px;
+        height: 40px;
+    }
+
+    #restart {
+        padding-top: 10px;
+    }
+
+    #restart-btn {
+        font-size: 15px;
+    }
+
     #rules > h2 {
         font-size: 30px;
     }
