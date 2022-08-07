@@ -31,8 +31,8 @@ function win(userChoice, computerChoice) {
     if (userScore < 5) {
         result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
     } else if(userScore === 5){
-        result_p.innerHTML=`Game over, you win!🎉 <br>Refresh to play again`
-        endGame();
+        result_p.innerHTML=`Game over, you win!🎉 <br>Refresh to play again`;
+        endGame()
     };
 
     userChoice_div.classList.add('green-glow');
@@ -47,8 +47,8 @@ function lose(userChoice, computerChoice) {
     if (computerScore < 5){
         result_p.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose 😢 `;
     } else if(computerScore === 5){
-        result_p.innerHTML=`Game over, you lose! 😔 <br> Refresh to play again`
-        endGame();
+        result_p.innerHTML=`Game over, you lose! 😔 <br> Refresh to play again`;
+        endGame()
     };
     
     userChoice_div.classList.add('red-glow');
@@ -97,55 +97,38 @@ function game(userChoice) {
             break;
     }
 }
-
 function endGame() {
-    rockDiv.disabled = true;
-    paperDiv.disabled = true;
-    scissorsDiv.disabled = true;
-    lizardDiv.disabled = true;
-    spockDiv.disabled = true;
-    
 
-  }
+}
   
-  function restartGame() {
+function restartGame() {
+
     restartScores();
-    rockDivdisabled = false;
-    paperDiv.disabled = false;
-    scissorsDiv.disabled = false;
-    lizardDiv.disabled = false;
-    spockDiv.disabled = false;
-  }
+
+}
   
-  function restartScores() {
+function restartScores() {
+
     userScore = 0;
     computerScore = 0;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-  }
-  
 
+}
+  
 
 function main() {
 
-    rockDiv.addEventListener ('click', function() {
-        game('r')
-    });
+    rockDiv.addEventListener('click', () => game("r"));
+
+    paperDiv.addEventListener('click', () => game("p"));
+
+    scissorsDiv.addEventListener('click', () => game("s"));
+
+    lizardDiv.addEventListener('click', () => game("l"));
+
+    spockDiv.addEventListener('click', () => game("v"));
     
-    paperDiv.addEventListener ('click', function() {
-        game('p')
-    });
-    
-    scissorsDiv.addEventListener ('click', function() {
-        game('s')
-    });
-    
-    lizardDiv.addEventListener ('click', function() {
-        game('l')
-    });
-    
-    spockDiv.addEventListener ('click', function() {
-        game('v')   
-    });
 }
 main()
+
