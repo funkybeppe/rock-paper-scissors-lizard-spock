@@ -30,7 +30,7 @@ header > h1 {
     border: 3px solid white ;
     background: #36486b;
     width: 80%;
-    height: 500px;
+    height: 580px;
     margin: 80px auto;
 }
 
@@ -80,14 +80,6 @@ header > h1 {
     box-shadow: 0 0 10px #9fa326;
 }
 
-
-#action-message {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    margin-top: 30px;
-}
-
 .scores {
     display: inline-block;
     padding: 60px;
@@ -125,6 +117,28 @@ header > h1 {
     transition: all 0.3s ease;
 } 
 
+#restart {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#restart-btn {
+    margin: 0 auto;
+    padding: 10px 28px 10px 28px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: #36486b;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#restart-btn:hover {
+    cursor: pointer;
+    background: #034f84;
+}
 
 .container {
     text-align: center;
@@ -184,12 +198,9 @@ header > h1 {
 
     .game-area {
         width: 80%;
-        height: 620px;
+        height: 680px;
     }
 
-    #action-message {
-        font-size: 25px;
-    }
 }
 
 /* For tablet sized screens from  790px wide down */
@@ -273,7 +284,7 @@ header > h1 {
     }
 
     .game-area {
-        height: 500px;
+        height: 540px;
     }
 
     .result {
@@ -308,10 +319,6 @@ header > h1 {
 
     .result {
         font-size: 25px;
-    }
-
-    #action-message {
-        font-size: 20px;
     }
 
     .scores {

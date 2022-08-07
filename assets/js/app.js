@@ -28,18 +28,29 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 🎉`;
+    if (userScore < 5) {
+        result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
+    } else if(userScore === 5){
+        result_p.innerHTML=`Game over, you win!🎉 <br>Refresh to play again`
+        endGame();
+    };
+
     userChoice_div.classList.add('green-glow');
     setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 300 );
-
-}
+};
 
 function lose(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lose 😢`;
+    if (computerScore < 5){
+        result_p.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose 😢 `;
+    } else if(computerScore === 5){
+        result_p.innerHTML=`Game over, you lose! 😔 <br> Refresh to play again`
+        endGame();
+    };
+    
     userChoice_div.classList.add('red-glow');
     setTimeout(function() {userChoice_div.classList.remove('red-glow') }, 300 );
 }
@@ -86,6 +97,34 @@ function game(userChoice) {
             break;
     }
 }
+
+function endGame() {
+    rockDiv.disabled = true;
+    paperDiv.disabled = true;
+    scissorsDiv.disabled = true;
+    lizardDiv.disabled = true;
+    spockDiv.disabled = true;
+    
+
+  }
+  
+  function restartGame() {
+    restartScores();
+    rockDivdisabled = false;
+    paperDiv.disabled = false;
+    scissorsDiv.disabled = false;
+    lizardDiv.disabled = false;
+    spockDiv.disabled = false;
+  }
+  
+  function restartScores() {
+    userScore = 0;
+    computerScore = 0;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+  }
+  
+
 
 function main() {
 
