@@ -12,6 +12,15 @@
     <header>
         <h1><a href="index.html">Rock Paper Scissors Lizard Spock</a></h1>
     </header>
+
+<div id="endScreen">
+    <div id="endScreenContent">
+        <h1 id="txtEndTitle">Game over!</h1>
+        <h2 id="txtEndMessage">You Win, Lose</h2>
+        <div id="btnReplay" class="btn" onclick="replay()">Play Again</div>
+    </div>
+</div>
+
 <div class="game-area">
     <div class="result">
         <p>Paper covers rock. You win!</p>
@@ -35,9 +44,6 @@
         </div>
     </div>
 
-    <div id="restart">
-        <button id="restart-btn" onclick="restartGame()">Restart game</button>
-    </div>
 
     <div class="score-area">
         <p class="scores">User <span id="win"> 0</span></p>
@@ -49,7 +55,8 @@
 <div class="container">
     <a class="btn" href="instructions.html">Instructions</a>
 </div>
-   
+
+
 
 
     <script src="assets/js/app.js"></script>

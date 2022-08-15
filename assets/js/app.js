@@ -31,7 +31,8 @@ function win(userChoice, computerChoice) {
     if (userScore < 5) {
         result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
     } else if(userScore === 5){
-        result_p.innerHTML=`Game over, you win!🎉 <br>Refresh to play again`;
+        txtEndTitle.innerHTML=`Game over!`;
+        txtEndMessage.innerHTML=`You Win 🎉`
         endGame()
     };
 
@@ -47,7 +48,8 @@ function lose(userChoice, computerChoice) {
     if (computerScore < 5){
         result_p.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose 😢 `;
     } else if(computerScore === 5){
-        result_p.innerHTML=`Game over, you lose! 😔 <br> Refresh to play again`;
+        txtEndTitle.innerHTML=`Game over!`;
+        txtEndMessage.innerHTML=`You lose 😔`;
         endGame()
     };
     
@@ -97,15 +99,16 @@ function game(userChoice) {
             break;
     }
 }
-function endGame() {
 
+function endGame() {
+    document.getElementById('endScreen').style.display = 'block'
+}
+
+function replay() {
+    document.getElementById('endScreen').style.display = 'none';
+    restartScores();
 }
   
-function restartGame() {
-
-    restartScores();
-
-}
   
 function restartScores() {
 
@@ -128,7 +131,10 @@ function main() {
     lizardDiv.addEventListener('click', () => game("l"));
 
     spockDiv.addEventListener('click', () => game("v"));
+
+    document.getElementById('endScreen').style.display = 'none';
     
 }
 main()
+
 
