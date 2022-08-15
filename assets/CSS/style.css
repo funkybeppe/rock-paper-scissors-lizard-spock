@@ -122,13 +122,14 @@ header > h1 {
     margin: 0 auto;
     padding: 10px 28px 10px 28px;
     letter-spacing: 1.2px;
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-top: 60px;
     background-color: #36486b;
     border: 1px solid white;
     border-radius: 10px;
     color: white;
     transition: all 0.3s ease;
+    width: 50%;
 }
 
 #btnReplay:hover {
@@ -152,18 +153,27 @@ header > h1 {
     z-index: 101;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.7);
     display: none;
     margin: 0 auto;
+    color: white;
 }
 
 #endScreenContent {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     padding: 20px;
-    margin: 80 auto;
-    background-color: white;
+    margin: 0 auto;
+    margin-top: 90px;
     text-align: center;
+}
+
+#endScreenContent > h1 {
+    font-size: 70px;
+}
+
+#endScreenContent > h2 {
+    font-size: 40px;
 }
 
 
