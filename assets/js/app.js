@@ -9,6 +9,7 @@ const scissorsDiv = document.getElementById('s');
 const lizardDiv = document.getElementById('l');
 const spockDiv = document.getElementById('v');
 
+
 function getComputerCoice() {
     const choices  = ['r','p','s','l','v'];
     const randomNumber = Math.floor(Math.random() * 5);
@@ -29,6 +30,7 @@ function win(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     if (userScore < 5) {
+        
         result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
     } else if(userScore === 5){
         txtEndTitle.innerHTML=`Game over!`;
