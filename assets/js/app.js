@@ -29,8 +29,8 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
+
     if (userScore < 5) {
-        
         result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
     } else if(userScore === 5){
         txtEndTitle.innerHTML=`Game over!`;
@@ -47,6 +47,7 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
+    
     if (computerScore < 5){
         result_p.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose 😢 `;
     } else if(computerScore === 5){
