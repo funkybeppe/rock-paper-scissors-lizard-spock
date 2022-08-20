@@ -30,19 +30,21 @@ The first player to score 5 wins the game.
 ### Wireframes
 
 * Desktop/Laptop:
-* ![Screenshot 2022-08-20 at 13 46 03](https://user-images.githubusercontent.com/105980082/185749664-a03a4022-90a6-4901-96d7-68ff588eeab1.png)
-* ![Screenshot 2022-08-20 at 14 44 19](https://user-images.githubusercontent.com/105980082/185749685-f94d50de-05c6-4a4b-960a-4eab6bf80a56.png)
-* ![Screenshot 2022-08-20 at 14 45 11](https://user-images.githubusercontent.com/105980082/185749690-f2a8917f-00be-4598-aee2-5efbffd1aeba.png)
+ * ![Screenshot 2022-08-20 at 13 46 03](https://user-images.githubusercontent.com/105980082/185749664-a03a4022-90a6-4901-96d7-68ff588eeab1.png)
+ * ![Screenshot 2022-08-20 at 14 44 19](https://user-images.githubusercontent.com/105980082/185749685-f94d50de-05c6-4a4b-960a-4eab6bf80a56.png)
+ * ![Screenshot 2022-08-20 at 14 45 11](https://user-images.githubusercontent.com/105980082/185749690-f2a8917f-00be-4598-aee2-5efbffd1aeba.png)
+ 
 
 * Tablet:
-* ![Screenshot 2022-08-20 at 14 45 57](https://user-images.githubusercontent.com/105980082/185749730-acc58990-d978-49e8-804e-7bdceb54ba9e.png)
-* ![Screenshot 2022-08-20 at 14 47 17](https://user-images.githubusercontent.com/105980082/185749733-d28fecd7-981e-44c8-8a31-84300482d543.png)
-* ![Screenshot 2022-08-20 at 14 49 49](https://user-images.githubusercontent.com/105980082/185749739-a5350154-da3d-4208-aeda-234c863b8efa.png)
+ * ![Screenshot 2022-08-20 at 14 45 57](https://user-images.githubusercontent.com/105980082/185749730-acc58990-d978-49e8-804e-7bdceb54ba9e.png)
+ * ![Screenshot 2022-08-20 at 14 47 17](https://user-images.githubusercontent.com/105980082/185749733-d28fecd7-981e-44c8-8a31-84300482d543.png)
+ * ![Screenshot 2022-08-20 at 14 49 49](https://user-images.githubusercontent.com/105980082/185749739-a5350154-da3d-4208-aeda-234c863b8efa.png)
+
 
 * Mobile:
-* ![Screenshot 2022-08-20 at 14 51 36](https://user-images.githubusercontent.com/105980082/185749747-11aa05b6-9f05-4fab-a246-a168d37d087a.png)
-* ![Screenshot 2022-08-20 at 14 52 21](https://user-images.githubusercontent.com/105980082/185749753-bc3367b0-d6a4-4b51-a61d-72aec4a4b78f.png)
-* ![Screenshot 2022-08-20 at 14 53 48](https://user-images.githubusercontent.com/105980082/185749766-feb08bc0-6efa-4c5b-8008-96dc98685225.png)
+ * ![Screenshot 2022-08-20 at 14 51 36](https://user-images.githubusercontent.com/105980082/185749747-11aa05b6-9f05-4fab-a246-a168d37d087a.png)
+ * ![Screenshot 2022-08-20 at 14 52 21](https://user-images.githubusercontent.com/105980082/185749753-bc3367b0-d6a4-4b51-a61d-72aec4a4b78f.png)
+ * ![Screenshot 2022-08-20 at 14 53 48](https://user-images.githubusercontent.com/105980082/185749766-feb08bc0-6efa-4c5b-8008-96dc98685225.png)
 
 
 ### Colour Scheme
