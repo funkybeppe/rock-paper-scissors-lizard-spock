@@ -160,7 +160,8 @@ The video was taken from [YouTube](https://www.youtube.com/).
   * This was used to convert the RGBA colour for the site to Hex.
 * [Favicon](https://favicon.io/)
   * Favicon.io was used to make the site favicon
-
+* [Balsamiq](https://balsamiq.com/wireframes/)
+  * Thiswas used to design the wireframes
 ## Testing
 
 ### Summary 
@@ -293,13 +294,30 @@ As this project was developed on the master branch, all changes made to the repo
 2. Navigate to the chosen directory where the Repository was Cloned/Extracted.
 3. You will now have offline access to the contents of the project.
 
-The live link can be found here - [Rock Paper Scissors Lizard Spock](https://github.com/funkybeppe/rock-paper-scissors-lizard-spock/)
+The live link can be found here - [Rock Paper Scissors Lizard Spock](https://github.com/funkybeppe/rock-paper-scissors-lizard-spock/).
 
 # Credits
 
 ## Content
 
-The content of this website was created by Luca Barbero
+The content of this website was created by Luca Barbero.
 
 ## Code
 
+* HTML/CSS: Guidance on general HTML/CSS usage was obtained from Mozilla's Web Documentation.
+* HTML: Code snippet for end game page partially taken from [JakeWeb](http://www.jacobenfield.com/jakeWeb/JS_GAMES/lesson18/index.php) and modified.
+* CSS: Code snippet for box-shadow taken from [StackOverflow](https://stackoverflow.com/) and modified for the game area shadow.
+* CSS: Code snippet for player score partially taken from Love Math's [Code Institute](https://learn.codeinstitute.net/) project.
+* CSS: Code snippet for button shape taken from my previous project [Alpine Adventures](https://github.com/funkybeppe/alpine-adventures) and modified.
+* JavaScript: Code snippet for color glow taken from [freeCodeCamp](https://www.freecodecamp.org/) and modified.
+* JavaScript: computer choice basics inspired by tutorial videos from [freeCodeCamp](https://www.freecodecamp.org/).
+
+## Media
+
+* Icons were taken from [Icons8](https://icons8.com/).
+* Video was taken from [Youtube](https://www.youtube.com/) on [3S88Sat](https://www.youtube.com/watch?v=Kov2G0GouBw) channel.
+
+## Acknowledgements
+
+* Thank you to my partner Jessica, for her relentless patience and support.
+* Thank you to my mentor, Ronan McLelland, for his encouragement and guidance.
