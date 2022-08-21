@@ -8,6 +8,8 @@ const paperDiv = document.getElementById('p');
 const scissorsDiv = document.getElementById('s');
 const lizardDiv = document.getElementById('l');
 const spockDiv = document.getElementById('v');
+let txtEndTitle = document.getElementById('txtEndTitle');
+let txtEndMessage = document.getElementById('txtEndMessage');
 
 
 function getComputerCoice() {
@@ -34,13 +36,13 @@ function win(userChoice, computerChoice) {
         result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
     } else if(userScore === 5){
         txtEndTitle.innerHTML=`Game over!`;
-        txtEndMessage.innerHTML=`You Win 🎉`
-        endGame()
-    };
+        txtEndMessage.innerHTML=`You Win 🎉`;
+        endGame();
+    }
 
     userChoice_div.classList.add('green-glow');
-    setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 300 );
-};
+    setTimeout(function() {userChoice_div.classList.remove('green-glow'); }, 300 );
+}
 
 function lose(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
@@ -53,19 +55,20 @@ function lose(userChoice, computerChoice) {
     } else if(computerScore === 5){
         txtEndTitle.innerHTML=`Game over!`;
         txtEndMessage.innerHTML=`You lose 😔`;
-        endGame()
-    };
+        endGame();
+    }
     
     userChoice_div.classList.add('red-glow');
-    setTimeout(function() {userChoice_div.classList.remove('red-glow') }, 300 );
+    setTimeout(function() {userChoice_div.classList.remove('red-glow'); }, 300 );
 }
 
 function draw(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw 😐 `;
     userChoice_div.classList.add('yellow-glow');
-    setTimeout(function() {userChoice_div.classList.remove('yellow-glow') }, 300 );
+    setTimeout(function() {userChoice_div.classList.remove('yellow-glow'); }, 300 );
 }
+
 function game(userChoice) {
     const computerChoice = getComputerCoice();
     switch(userChoice + computerChoice) {
@@ -104,7 +107,7 @@ function game(userChoice) {
 }
 
 function endGame() {
-    document.getElementById('endScreen').style.display = 'block'
+    document.getElementById('endScreen').style.display = 'block';
 }
 
 function replay() {
@@ -138,6 +141,7 @@ function main() {
     document.getElementById('endScreen').style.display = 'none';
     
 }
-main()
+
+main();
 
 
