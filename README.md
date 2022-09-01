@@ -194,7 +194,8 @@ The live Project can be found [here](https://funkybeppe.github.io/rock-paper-sci
 
 ### Tests Results
 
-![Screenshot 2022-08-22 at 12 09 25](https://user-images.githubusercontent.com/105980082/185907472-1e470d91-ab2a-42ef-b369-d60fbe594799.png)
+![Screenshot 2022-09-01 at 16 26 41](https://user-images.githubusercontent.com/105980082/187952842-368c9602-4d5d-4baa-b953-b7f46a641e47.png)
+
 
 ## Bugs
 
@@ -230,11 +231,8 @@ I have soon found out it was better to create an end screen page that partially 
 
 ## Unfixed bugs
 
-* The game is designed to fit in all kind of screens either in portrait or landscape mode.
-  The end screen sometimes does not entirely cover the screen on certains devices when landscape mode is activated. 
-  This does not affect the playability in any case.
-  
-![Screenshot 2022-08-20 at 17 28 01](https://user-images.githubusercontent.com/105980082/185756977-b322cf5f-cebd-419e-b04b-c69b5ea9527e.png)
+* No unfixed bugs
+
 
 # Deployment
 
