@@ -510,6 +510,33 @@ header > h1 {
         font-size: 15px;
     }
 
+    #btnReplay {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #rules {
+        font-size: 20px;
+    }
+
+    #rules > h2 {
+        font-size: 25px;
+    }
+
+    #history {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #history > h2 {
+        font-size: 25px;
+    }
+
+    #video-rules {
+        height: 400px;
+        width: 70%;  
+    }
+
 }
 
 
@@ -573,6 +600,33 @@ header > h1 {
         width: 85%;
         font-size: 15px;
     }
+    
+    #btnReplay {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #rules {
+        font-size: 20px;
+    }
+
+    #rules > h2 {
+        font-size: 25px;
+    }
+
+    #history {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #history > h2 {
+        font-size: 25px;
+    }
+
+    #video-rules {
+        height: 400px;
+        width: 70%;  
+    }
 }
 
 @media only screen and (max-height: 375px) and (orientation: landscape) {
@@ -634,6 +688,33 @@ header > h1 {
     #btnReplay {
         width: 85%;
         font-size: 15px;
+    }
+
+    #btnReplay {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #rules {
+        font-size: 20px;
+    }
+
+    #rules > h2 {
+        font-size: 25px;
+    }
+
+    #history {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #history > h2 {
+        font-size: 25px;
+    }
+
+    #video-rules {
+        height: 320px;
+        width: 70%;  
     }
 }
 
@@ -700,5 +781,27 @@ header > h1 {
     #btnReplay {
         width: 85%;
         font-size: 15px;
+    }
+
+    #rules {
+        font-size: 20px;
+    }
+
+    #rules > h2 {
+        font-size: 25px;
+    }
+
+    #history {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #history > h2 {
+        font-size: 25px;
+    }
+
+    #video-rules {
+        height: 320px;
+        width: 70%;  
     }
 }
