@@ -214,6 +214,8 @@ header > h1 {
 
 /* Media Queries */
 
+/* Portrait */
+
 /* For large to screens sizes from  1050px wide down */
 
 @media screen and (max-width: 1050px) {
@@ -434,4 +436,73 @@ header > h1 {
         height: 300px;
         width: 85%;  
     }
+
+}
+
+/* Landscape */
+
+
+/* For large mobile device screen with max height of  */
+
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+    
+    header > h1 {
+        font-size: 20px;  
+    }
+
+    .game-area {
+        height: 300px;
+        margin: 20px auto;
+    }
+
+    .result {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    .choice  > img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .choices {
+        margin-top: 10px;
+    }
+
+    .choice {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .scores {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .container > a {
+        font-size: 15px;
+    }
+
+    #endScreen {
+        height: auto;
+    }
+
+    #endScreenContent {
+        margin-top: 120px;
+        width: 250px;
+    }
+    
+    #endScreenContent > h1 {
+        font-size: 40px;
+    }
+    
+    #endScreenContent > h2 {
+        font-size: 30px;
+    }
+
+    #btnReplay {
+        width: 85%;
+        font-size: 15px;
+    }
+
 }
