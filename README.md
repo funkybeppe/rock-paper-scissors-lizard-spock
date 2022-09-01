@@ -8,6 +8,7 @@ This Website was created for the sole purpose of completing the second Milestone
 ## Rock Paper Scissors Lizard Spock Responsive Website
 
 Rock Paper Scissors Lizard Spock is an interactive web game which allows users to play the world famous game "rock, paper, scissors" against the computer.
+
 The first player to score 5 wins the game.
 
 
@@ -76,7 +77,7 @@ User score is colored with Green, Computer score is colored in Red.
 
 ### Typography
 
-The headers and body elemente are using the Signika Negative font.
+The headers and body elements are using the Signika Negative font.
 
 ### Video
 
@@ -89,7 +90,7 @@ The video was taken from [YouTube](https://www.youtube.com/).
 
   * A button placed at beneath the game area links to the instructions page.
   * A button placed at the bottom of the instructions page links to the game page.
-  * The logo is a link too to the game page and it can be clicked to return to the main page and to refresh the score.
+  * The logo is a link to the game page and it can be clicked to return to the main page and to refresh the score.
  
 ![Screenshot 2022-08-20 at 15 13 45](https://user-images.githubusercontent.com/105980082/185750603-78e5309a-83e1-4350-a600-233925d6436a.png)
 
@@ -229,9 +230,9 @@ I have soon found out it was better to create an end screen page that partially 
 
 ## Unfixed bugs
 
-* The game is designed to fit in all kind of screen sizes without rotating the screen in landscape mode, although this still possible. 
-  The end screen sometimes does not cover completely the screen on certains devices sizes when landscape mode is activated. 
-  This does not affect the ability to play in any case.
+* The game is designed to fit in all kind of screens either in portrait or landscape mode.
+  The end screen sometimes does not entirely cover the screen on certains devices when landscape mode is activated. 
+  This does not affect the playability in any case.
   
 ![Screenshot 2022-08-20 at 17 28 01](https://user-images.githubusercontent.com/105980082/185756977-b322cf5f-cebd-419e-b04b-c69b5ea9527e.png)
 
