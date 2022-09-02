@@ -106,6 +106,10 @@ function game(userChoice) {
     }
 }
 
+function startGame() {
+    document.getElementById('introScreen').style.display = 'none';
+}
+
 function endGame() {
     document.getElementById('endScreen').style.display = 'block';
 }
