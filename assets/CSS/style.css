@@ -119,6 +119,20 @@ header > h1 {
     transition: all 0.3s ease;
 } 
 
+#containerLogo {
+    width: 80%;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
 #containerStart {
     width: 400px;
     height: 400px;
@@ -212,16 +226,6 @@ svg {
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
-#introScreenContent {
-    width: 800px;
-    height: 400px;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 200px;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-}
 
 #endScreen {
     position: absolute;
@@ -304,18 +308,43 @@ svg {
         height: 600px;
     }
 
+    #containerLogo {
+        font-size: 35px;
+    }
+
+    #history > h2 {
+        font-size: 50px;
+    } 
+
+    #rules > h2{
+        font-size: 50px;
+    }
 
 }
 
 /* For tablet sized screens from  790px wide down */
 
 @media screen and (max-width: 788px) {
+
+    #containerLogo {
+        font-size: 30px;
+        width: 90%;
+    }
+
     .score-area {
         width: 100%;
     }
 
     #history {
         width: 90%;
+    }
+
+    #history > h2 {
+        font-size: 40px;
+    } 
+
+    #rules > h2{
+        font-size: 40px;
     }
 }
 
@@ -431,7 +460,7 @@ svg {
 @media screen and (max-width: 410px) {
 
     header > h1 {
-        font-size: 25px;  
+        font-size: 35px;  
     }
 
     .game-area {
@@ -449,6 +478,31 @@ svg {
 
     #history {
         width: 95%;
+        font-size: 25px;
+    }
+
+    #history > h2 {
+        font-size: 30px;
+    }
+
+    #rules {
+        font-size: 25px;
+    }
+
+    #rules > h2 {
+        font-size: 30px;
+    }
+
+    
+
+    #containerLogo {
+        font-size: 25px;
+    }
+
+    #containerStart {
+        height: 200px;
+        width: 200px;
+        font-size: 10px;
     }
 
     #endScreenContent {
@@ -475,8 +529,16 @@ svg {
 
 @media screen and (max-width: 360px) {
 
+    #containerLogo {
+        font-size: 20px;
+    }
+
+    .btnStart > span {
+        font-size: 16px;
+    }
+
     header > h1 {
-        font-size: 20px;  
+        font-size: 30px;  
     }
 
     .game-area {
@@ -499,11 +561,19 @@ svg {
     }
 
     #rules > h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    #rules {
+        font-size: 20px;
     }
 
     #history > h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    #history {
+        font-size: 20px;
     }
 
     #video-rules {
@@ -521,7 +591,7 @@ svg {
 @media only screen and (max-height: 600px) and (orientation: landscape) {
     
     header > h1 {
-        font-size: 20px;  
+        font-size: 30px;  
     }
 
 
@@ -795,7 +865,7 @@ svg {
 @media only screen and (max-height: 320px) and (orientation: landscape) {
 
     header > h1 {
-        font-size: 20px;  
+        font-size: 25px;  
     }
 
     .game-area {
@@ -845,11 +915,11 @@ svg {
     }
     
     #endScreenContent > h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     
     #endScreenContent > h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #btnReplay {
