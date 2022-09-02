@@ -112,14 +112,14 @@ header > h1 {
     letter-spacing: 1.2px;
     font-size: 20px;
     margin-top: 25px;
-    background-color: #034f84;
-    border: 1px solid white;
+    background-color: transparent;
+    border: 1px solid #91C9FF;
     border-radius: 2px;
     color: white;
     transition: all 0.3s ease;
 } 
 
-.container1 {
+#containerStart {
     width: 400px;
     height: 400px;
     position: absolute;
@@ -137,14 +137,14 @@ header > h1 {
     position: absolute;
 }
   
-.btn1 {
+.btnStart {
     width: 180px;
     height: 60px;
     cursor: pointer;
     background: transparent;
     border: 1px solid #91C9FF;
     outline: none;
-    transition: 1s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
   
 svg {
@@ -155,19 +155,19 @@ svg {
     stroke: #fff;
     stroke-dasharray: 150 480;
     stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
   
-.btn1:hover {
-    transition: 1s ease-in-out;
+.btnStart:hover {
+    transition: 0.6s ease-in-out;
     background: #4F95DA;
 }
   
-.btn1:hover svg {
+.btnStart:hover svg {
     stroke-dashoffset: -480;
 }
   
-.btn1 span {
+.btnStart span {
     color: white;
     font-size: 25px;
     font-family: 'Signika Negative', sans-serif;
@@ -180,8 +180,8 @@ svg {
     letter-spacing: 1.2px;
     font-size: 25px;
     margin-top: 60px;
-    background-color: #034f84;
-    border: 1px solid white;
+    background-color: transparent;
+    border: 1px solid #91C9FF;
     border-radius: 2px;
     color: white;
     transition: all 0.3s ease;
