@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -283,9 +284,7 @@ svg {
 }
 
 #history {
-    margin: auto;
     text-align: center;
-    width: 80%;
     font-size: 25px;
     padding: 40px;
 }
@@ -311,7 +310,7 @@ svg {
 /* Portrait */
 
 
-/* For wide desktop monitors 2560ps up */
+/* For wide desktop monitors 2560px up */
 @media screen and (min-width: 2560px) {
 
     header > h1 {
