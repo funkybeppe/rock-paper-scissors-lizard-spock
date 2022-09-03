@@ -12,7 +12,8 @@ body, html {
     background-repeat: no-repeat;
     overflow: scroll;
     color: #ffffff;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
 }
 
 a {
