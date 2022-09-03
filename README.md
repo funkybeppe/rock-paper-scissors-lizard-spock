@@ -12,7 +12,7 @@ Rock Paper Scissors Lizard Spock is an interactive web game which allows users t
 
 The first player to score 5 wins the game.
 
-The live link can be found here - [Rock Paper Scissors Lizard Spock](https://github.com/funkybeppe/rock-paper-scissors-lizard-spock/).
+The live link can be found here - [Rock Paper Scissors Lizard Spock](https://funkybeppe.github.io/rock-paper-scissors-lizard-spock/index.html).
 
 ![Screenshot 2022-09-03 at 15 53 46](https://user-images.githubusercontent.com/105980082/188276826-b5fce296-5197-4211-a4cc-ee26b5e9ff6b.png)
 
