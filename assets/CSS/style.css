@@ -486,6 +486,10 @@ svg {
         height: 400px;
         width: 80%;  
     }
+
+    #containerLogo {
+        font-size: 25px;
+    }
 }
 
 /* For large mobile device sized screens from  448px wide down */
@@ -516,6 +520,32 @@ svg {
     
     .scores {
         padding: 40px;
+    }
+
+    #containerStart {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .center {
+        width: 140px;
+        height: 40px;
+        margin-top: 80px;
+        font-size: 10px;
+    } 
+
+    .btnStart {
+        width: 140px;
+        height: 40px;
+    }
+
+    .btnStart  > span{
+        font-size: 20px;
+    }
+
+    svg {
+        display: none;
     }
 }
 
