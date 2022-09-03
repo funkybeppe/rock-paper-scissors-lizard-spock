@@ -277,6 +277,7 @@ svg {
     text-align: center;
     padding: 40px;
     font-size: 25px;
+    
 }
 
 #rules > h2 {
@@ -287,6 +288,7 @@ svg {
     text-align: center;
     font-size: 25px;
     padding: 40px;
+    margin: 0 auto;
 }
 
 #history > h2 {
@@ -443,11 +445,15 @@ svg {
     }
 
     #rules > h2 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    #rules {
+        font-size: 25px;
     }
 
     #history > h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #endScreenContent {
@@ -487,7 +493,11 @@ svg {
     }
 
     #history {
-        width: 90%;
+        font-size: 20px;
+    }
+
+
+    #rules {
         font-size: 20px;
     }
 
@@ -529,6 +539,11 @@ svg {
     
     .scores {
         padding: 40px;
+    }
+
+
+    #history {
+        width: 95%;
     }
 
     #containerStart {
@@ -579,11 +594,7 @@ svg {
         padding: 20px;
     }
 
-    #history {
-        width: 95%;
-        font-size: 25px;
-    }
-
+    
     #history > h2 {
         font-size: 30px;
     }
@@ -687,7 +698,7 @@ svg {
     }
 
     #rules {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #history > h2 {
@@ -695,7 +706,7 @@ svg {
     }
 
     #history {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #video-rules {
