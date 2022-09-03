@@ -200,7 +200,7 @@ No elements should overlap another container div. All elements should remain on 
 
 All buttons should direct to the correct HTML pages.
 
-The live Project can be found [here](https://funkybeppe.github.io/rock-paper-scissors-lizard-spock/)
+The live Project can be found [here](https://funkybeppe.github.io/rock-paper-scissors-lizard-spock/index.html)
 
 ### Tests Performed
 
