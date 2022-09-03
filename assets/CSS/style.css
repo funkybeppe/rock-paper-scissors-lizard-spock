@@ -210,7 +210,7 @@ svg {
 
 #btnReplay:hover {
     cursor: pointer;
-    background: #36486b;
+    background: #053d74;
 }
 
 .container {
@@ -736,12 +736,14 @@ svg {
     }
 
     #endScreen {
-        height: auto;
+        height: 100%;
+        width: 100%;
     }
 
     #endScreenContent {
         margin-top: 120px;
-        width: 250px;
+        width: 300px;
+        height: 200px;
     }
     
     #endScreenContent > h1 {
@@ -831,13 +833,8 @@ svg {
         margin-top: 20px;
     }
 
-    #endScreen {
-        height: auto;
-    }
-
     #endScreenContent {
         margin-top: 80px;
-        width: 250px;
     }
     
     #endScreenContent > h1 {
@@ -920,13 +917,10 @@ svg {
         font-size: 15px;
     }
 
-    #endScreen {
-        height: auto;
-    }
 
     #endScreenContent {
         margin-top: 80px;
-        width: 250px;
+        width: 300px;
     }
     
     #endScreenContent > h1 {
@@ -1013,9 +1007,6 @@ svg {
         font-size: 15px;
     }
 
-    #endScreen {
-        height: auto;
-    }
 
     #endScreenContent {
         margin-top: 80px;
