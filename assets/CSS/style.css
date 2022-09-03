@@ -13,6 +13,7 @@ body, html {
     color: #ffffff;
     height: 100%;
     min-height: 100vh;
+    margin: 0;
 }
 
 a {
