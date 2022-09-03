@@ -35,21 +35,21 @@ The live link can be found here - [Rock Paper Scissors Lizard Spock](https://git
 ### Wireframes
 
 * Desktop/Laptop:
- * ![Screenshot 2022-08-20 at 13 46 03](https://user-images.githubusercontent.com/105980082/185749664-a03a4022-90a6-4901-96d7-68ff588eeab1.png)
- * ![Screenshot 2022-08-20 at 14 44 19](https://user-images.githubusercontent.com/105980082/185749685-f94d50de-05c6-4a4b-960a-4eab6bf80a56.png)
- * ![Screenshot 2022-08-20 at 14 45 11](https://user-images.githubusercontent.com/105980082/185749690-f2a8917f-00be-4598-aee2-5efbffd1aeba.png)
- 
+ * ![Screenshot 2022-09-03 at 16 59 01](https://user-images.githubusercontent.com/105980082/188278789-acba1d00-1888-479c-8b55-fb0fed168b51.png)
+ * ![Screenshot 2022-09-03 at 17 01 36](https://user-images.githubusercontent.com/105980082/188278796-27428391-a40c-4738-b1c9-b8636b61c02c.png)
+ * ![Screenshot 2022-09-03 at 17 01 47](https://user-images.githubusercontent.com/105980082/188278806-f1587b6b-1c2c-47ec-9294-cade07512d27.png)
+
 
 * Tablet:
- * ![Screenshot 2022-08-20 at 14 45 57](https://user-images.githubusercontent.com/105980082/185749730-acc58990-d978-49e8-804e-7bdceb54ba9e.png)
- * ![Screenshot 2022-08-20 at 14 47 17](https://user-images.githubusercontent.com/105980082/185749733-d28fecd7-981e-44c8-8a31-84300482d543.png)
- * ![Screenshot 2022-08-20 at 14 49 49](https://user-images.githubusercontent.com/105980082/185749739-a5350154-da3d-4208-aeda-234c863b8efa.png)
+ * ![Screenshot 2022-09-03 at 17 02 03](https://user-images.githubusercontent.com/105980082/188278819-0781d60f-fa87-4ff0-aedf-6d753d55d16f.png)
+ * ![Screenshot 2022-09-03 at 17 02 18](https://user-images.githubusercontent.com/105980082/188278824-9c049145-e527-44fe-8711-8a338cfd6dd6.png)
+ * ![Screenshot 2022-09-03 at 17 02 29](https://user-images.githubusercontent.com/105980082/188278826-b2d65745-9da8-4f8a-8acd-cfaf52b414fa.png)
 
 
 * Mobile:
- * ![Screenshot 2022-08-20 at 14 51 36](https://user-images.githubusercontent.com/105980082/185749747-11aa05b6-9f05-4fab-a246-a168d37d087a.png)
- * ![Screenshot 2022-08-20 at 14 52 21](https://user-images.githubusercontent.com/105980082/185749753-bc3367b0-d6a4-4b51-a61d-72aec4a4b78f.png)
- * ![Screenshot 2022-08-20 at 14 53 48](https://user-images.githubusercontent.com/105980082/185749766-feb08bc0-6efa-4c5b-8008-96dc98685225.png)
+ * ![Screenshot 2022-09-03 at 17 02 51](https://user-images.githubusercontent.com/105980082/188278834-96fe5569-bcd4-483b-8171-4a009da4c674.png)
+ * ![Screenshot 2022-09-03 at 17 03 05](https://user-images.githubusercontent.com/105980082/188278837-b10e0cd2-b546-473a-b41c-f69956688d78.png)
+ * ![Screenshot 2022-09-03 at 17 03 20](https://user-images.githubusercontent.com/105980082/188278840-6405b221-53f0-4ae0-b846-d1d7d126e7da.png)
 
 
 ### Colour Scheme
