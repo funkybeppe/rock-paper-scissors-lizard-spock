@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -27,10 +28,12 @@ header > h1 {
     text-align: center;
     font-size: 60px;
     color: white;
+    text-shadow: 2px 2px black;
 }
 
 .game-area {
     border: 3px solid white ;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
     width: 80%;
     height: 500px;
     margin: 80px auto;
@@ -131,6 +134,7 @@ header > h1 {
     text-align: center;
     align-items: center;
     padding-bottom: 80px;
+    text-shadow: 2px 2px black;
 }
 
 #containerStart {
@@ -170,6 +174,7 @@ svg {
     stroke-dasharray: 150 480;
     stroke-dashoffset: 150;
     transition: 0.6s ease-in-out;
+    font-family: 'Signika Negative', sans-serif;
 }
   
 .btnStart:hover {
@@ -294,6 +299,60 @@ svg {
 
 /* Portrait */
 
+
+/* For wide desktop monitors 2560ps up */
+@media screen and (min-width: 2560px) {
+
+    header > h1 {
+        font-size: 80px;
+    }
+
+    .game-area {
+        width: 1000px;
+        height: 540px;
+    }
+
+    #history {
+        width: 30%;
+    }
+}
+
+/* For large sized laptop screens from 1440px up */
+@media screen and (min-width: 1440px) {
+
+    header > h1 {
+        font-size: 80px;
+    }
+
+    .game-area {
+        width: 60%;
+        height: 540px;
+    }
+
+    #containerLogo {
+        font-size: 45px;
+    }
+
+    .result {
+        font-size: 45px;
+    }
+
+    .choice  > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .score-area {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    #video-rules {
+        width: 800px;
+    }
+
+}
+
 /* For large to screens sizes from  1050px wide down */
 
 @media screen and (max-width: 1050px) {
@@ -345,6 +404,10 @@ svg {
 
     #rules > h2{
         font-size: 40px;
+    }
+
+    svg {
+        display: none;
     }
 }
 
@@ -493,16 +556,36 @@ svg {
         font-size: 30px;
     }
 
-    
-
     #containerLogo {
         font-size: 25px;
+        margin-top: 40px;
     }
 
     #containerStart {
         height: 200px;
         width: 200px;
+        
+        margin-bottom: 20px;
+    }
+
+    .center {
+        width: 140px;
+        height: 40px;
+        margin-top: 80px;
         font-size: 10px;
+    } 
+
+    .btnStart {
+        width: 140px;
+        height: 40px;
+    }
+
+    .btnStart  > span{
+        font-size: 20px;
+    }
+
+    svg {
+        display: none;
     }
 
     #endScreenContent {
