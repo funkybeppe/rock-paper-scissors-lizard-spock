@@ -1,5 +1,6 @@
 # Milestone Project 2
-![Screenshot 2022-08-20 at 12 40 20](https://user-images.githubusercontent.com/105980082/185744382-b5126143-52d7-4cae-8764-b42b8b5d9ccb.png)
+![Screenshot 2022-09-03 at 15 58 01](https://user-images.githubusercontent.com/105980082/188276763-9dab3daa-28df-4584-aace-14880b8d76bf.png)
+
 
 ## Purpose
 
@@ -7,12 +8,15 @@ This Website was created for the sole purpose of completing the second Milestone
 
 ## Rock Paper Scissors Lizard Spock Responsive Website
 
-Rock Paper Scissors Lizard Spock is an interactive web game which allows users to play the world famous game "rock, paper, scissors" against the computer.
+Rock Paper Scissors Lizard Spock is an interactive web game which allows users to play an alternative version of the world famous game "rock, paper, scissors" against the computer.
 
 The first player to score 5 wins the game.
 
+The live link can be found here - [Rock Paper Scissors Lizard Spock](https://github.com/funkybeppe/rock-paper-scissors-lizard-spock/).
 
-![Screenshot 2022-08-20 at 12 38 47](https://user-images.githubusercontent.com/105980082/185744392-37f00403-6314-4b9f-8554-1f4d7fec4a98.png)
+![Screenshot 2022-09-03 at 15 53 46](https://user-images.githubusercontent.com/105980082/188276826-b5fce296-5197-4211-a4cc-ee26b5e9ff6b.png)
+
+
 
 ## User Experience Design
 
@@ -50,10 +54,11 @@ The first player to score 5 wins the game.
 
 ### Colour Scheme
 
-* Three main colours used:
-  * Dark Blue #36486b, used for game background and header backgorund.
-  * White #ffffff for body where more contrast with the dark blue was needed.
-  * Light Blue shade #bccad6 for the general background. 
+* Four main colours used:
+  * A gradient background is used for every page, going from a lighter shade of blue to a darker one.
+  * White #ffffff for body.
+  * Dark Blue shade #053d74 for the hover button color change.
+  * Light Blue shade #91C9FF for buttons borders.
  
  The Dark Blue and White shades should compliment each other without being over powering to the eyes.
 
@@ -65,8 +70,9 @@ User score is colored with Green, Computer score is colored in Red.
 * The selected icon is highlighted by clicking on it with Red shades #fc121a and #d01115 when the user choice is the losing one.
 * The selected icon is highlighted by clicking on it with Yellow shades #e7ed3b and #9fa326 when the user choice is the same as the computer choice.
 
-![Screenshot 2022-08-20 at 12 49 59](https://user-images.githubusercontent.com/105980082/185746134-7c1dcf7e-6ce9-4d5c-bec1-dd80095d586d.png)
-![Screenshot 2022-08-20 at 12 51 34](https://user-images.githubusercontent.com/105980082/185746136-ae9ffb0a-0df2-484b-b4ec-727f8d4e28cd.png)
+![Screenshot 2022-09-02 at 18 50 48](https://user-images.githubusercontent.com/105980082/188276999-12acf9db-bc49-4a5f-b81c-9c7d1bc433fe.png)
+![Screenshot 2022-09-03 at 16 47 14](https://user-images.githubusercontent.com/105980082/188278227-a1b80a4e-5ae2-40b9-b9a4-49d5b51c46b6.png)
+![Screenshot 2022-09-03 at 15 56 51](https://user-images.githubusercontent.com/105980082/188277002-9fed3d99-03e0-4dc4-865b-b45352630cc6.png)
 ![Screenshot 2022-08-20 at 12 53 12](https://user-images.githubusercontent.com/105980082/185746139-2ead20ea-f4b1-4bce-9d65-e7f5217ea8c2.png)
 ![Screenshot 2022-08-20 at 12 54 28](https://user-images.githubusercontent.com/105980082/185746140-51545bee-a88e-40c2-af83-eeef625cc3e3.png)
 ![Screenshot 2022-08-20 at 12 55 40](https://user-images.githubusercontent.com/105980082/185746141-8aea12a7-9b3a-4110-a94b-c20b9eacc783.png)
@@ -88,19 +94,33 @@ The video was taken from [YouTube](https://www.youtube.com/).
 
 * Navigation
 
+  * A button placed in the start page links to the game
   * A button placed at beneath the game area links to the instructions page.
-  * A button placed at the bottom of the instructions page links to the game page.
-  * The logo is a link to the game page and it can be clicked to return to the main page and to refresh the score.
+  * A button placed at the bottom of the instructions page links to the start page.
+  * A button placed in the end screen page allows to play again the game.
+  * The logo is a link to the start page .
  
-![Screenshot 2022-08-20 at 15 13 45](https://user-images.githubusercontent.com/105980082/185750603-78e5309a-83e1-4350-a600-233925d6436a.png)
+![Screenshot 2022-09-03 at 15 58 50](https://user-images.githubusercontent.com/105980082/188277270-cd88ec91-2312-4f82-848b-4b8fe9dc4fa9.png)
+![Screenshot 2022-09-03 at 16 03 33](https://user-images.githubusercontent.com/105980082/188277274-85e87958-e2eb-4cfb-9686-3e72115df0b8.png)
+![Screenshot 2022-09-03 at 16 01 12](https://user-images.githubusercontent.com/105980082/188277285-cb31999b-214b-4e99-b757-8c164fd66360.png)
+![Screenshot 2022-09-03 at 16 05 28](https://user-images.githubusercontent.com/105980082/188277299-af20e5a2-63d8-4d5c-b333-60752ed35f9f.png)
 
-![Screenshot 2022-08-20 at 15 12 06](https://user-images.githubusercontent.com/105980082/185750491-37183593-dbad-4e78-b790-5c702312d973.png)
+
+* The Start Game page
+
+  * The Start Game page is the landing page of the website.
+  * We can find the website logo in the middle.
+  * The Start Game button contains an hover animation when the user hovers over it with the mouse.
+  * The Start Game button links to the game page.
+  
+![Screenshot 2022-09-03 at 15 57 42](https://user-images.githubusercontent.com/105980082/188277569-fa488ad8-31ea-4084-a6fe-3a7ae46d3f55.png)
+
 
 * The Header
 
   * The header shows the logo, colored in white with a dark blue background. It can be user as a score refresher if clicked.
   
-![Screenshot 2022-08-20 at 12 40 20](https://user-images.githubusercontent.com/105980082/185750832-ccfcefd6-85e1-45c4-b029-5fe6da865a06.png)
+![Screenshot 2022-09-03 at 15 58 01](https://user-images.githubusercontent.com/105980082/188277597-0f03d396-051d-4a52-92e9-3323da4498a7.png)
 
 
 * The game area
@@ -111,7 +131,8 @@ The video was taken from [YouTube](https://www.youtube.com/).
   * The white circle is colored after a click according to the choice outcome.
   * At the bottom of the game area we can find the score tracker: user is green, computer in red.
   
-![Screenshot 2022-08-20 at 15 24 37](https://user-images.githubusercontent.com/105980082/185751213-5ab9790e-ea83-4833-91df-b86609aa29ab.png)
+![Screenshot 2022-09-03 at 15 59 28](https://user-images.githubusercontent.com/105980082/188277602-eebff23e-e2ce-4f29-b333-ac8681d1433c.png)
+
 
 * The instructions page
 
@@ -119,9 +140,9 @@ The video was taken from [YouTube](https://www.youtube.com/).
   * A brief history of the game is given beneath the rules section and it explains the differences from the original version of the game.
   * A video at the bottom of the page is provided for entertainment purposes.
 
-![Screenshot 2022-08-20 at 15 33 11](https://user-images.githubusercontent.com/105980082/185751713-237832c3-c187-4a93-97e4-6f5abf6350c8.png)
+![Screenshot 2022-09-03 at 16 02 13](https://user-images.githubusercontent.com/105980082/188277361-1dc968f9-ba0e-4b4a-b8c7-6fbe933a0c82.png)
+![Screenshot 2022-09-03 at 16 02 49](https://user-images.githubusercontent.com/105980082/188277365-13032a7a-5797-4c14-ad16-3fc1fbf72e30.png)
 
-![Screenshot 2022-08-20 at 15 33 45](https://user-images.githubusercontent.com/105980082/185751717-79572b33-fdce-4567-b6cc-b57357ac03e9.png)
 
 * End game screen
 
@@ -129,7 +150,8 @@ The video was taken from [YouTube](https://www.youtube.com/).
   * The purpose of the end screen is to prevent the players from keep playing.
   * The replay button is provided and it redirects to the game page.
 
-![Screenshot 2022-08-20 at 16 50 19](https://user-images.githubusercontent.com/105980082/185755534-f251ff1c-59a3-46b5-bd58-7aedd0eccdee.png)
+
+![Screenshot 2022-09-03 at 16 04 33](https://user-images.githubusercontent.com/105980082/188277613-8605fcef-39cd-44be-afb8-8688b72a4e82.png)
 
 
 ## Features to implement 
@@ -162,7 +184,10 @@ The video was taken from [YouTube](https://www.youtube.com/).
 * [Favicon](https://favicon.io/)
   * Favicon.io was used to make the site favicon
 * [Balsamiq](https://balsamiq.com/wireframes/)
-  * Thiswas used to design the wireframes
+  * This was used to design the wireframes
+* [Grabient](https://cssgradient.io/gradient-backgrounds/) 
+  * This was used to generate the gradient color background image
+  
 ## Testing
 
 ### Summary 
@@ -221,12 +246,8 @@ I have soon found out it was better to create an end screen page that partially 
 * Accessibility
 
   * I confirmed that the colors and fonts are easy to read and accessible by running it through lighthouse in devtools.
-
-### Game page
-
-![Screenshot 2022-08-20 at 17 58 25](https://user-images.githubusercontent.com/105980082/185758453-577e0006-6cff-4bc3-a05f-b1251fc0cef8.png)
-
-### Instructions page
+  
+![Screenshot 2022-09-03 at 16 36 52](https://user-images.githubusercontent.com/105980082/188277956-703acf62-9c92-46e8-9938-d6f8d260f0de.png)
 
 
 ## Unfixed bugs
@@ -304,16 +325,19 @@ The content of this website was created by Luca Barbero.
 ## Code
 
 * HTML/CSS: Guidance on general HTML/CSS usage was obtained from Mozilla's Web Documentation.
-* HTML: Code snippet for end game page partially taken from [JakeWeb](http://www.jacobenfield.com/jakeWeb/JS_GAMES/lesson18/index.php) and modified.
+* HTML: Code snippet for start and end game page partially taken from [JakeWeb](http://www.jacobenfield.com/jakeWeb/JS_GAMES/lesson18/index.php) and modified.
 * CSS: Code snippet for box-shadow taken from [StackOverflow](https://stackoverflow.com/) and modified for the game area shadow.
 * CSS: Code snippet for player score partially taken from Love Math's [Code Institute](https://learn.codeinstitute.net/) project.
 * CSS: Code snippet for button shape taken from my previous project [Alpine Adventures](https://github.com/funkybeppe/alpine-adventures) and modified.
+* CSS: Code snippet for scrollbar hide taken from [W3s](https://www.w3schools.com/).
+* CSS: Code snippet for page body fit partially taken from [YouTube](https://www.youtube.com/watch?v=299RZ0d1LQY&list=WL&index=1&t=1s).
 * JavaScript: Code snippet for color glow taken from [freeCodeCamp](https://www.freecodecamp.org/) and modified.
-* JavaScript: computer choice basics inspired by tutorial videos from [freeCodeCamp](https://www.freecodecamp.org/).
+* JavaScript: Computer choice basics inspired by tutorial videos from [freeCodeCamp](https://www.freecodecamp.org/).
 
 ## Media
 
 * Icons were taken from [Icons8](https://icons8.com/).
+* Gradient background image was taken from [Grabient](https://cssgradient.io/gradient-backgrounds/)
 * Video was taken from [Youtube](https://www.youtube.com/) on [3S88Sat](https://www.youtube.com/watch?v=Kov2G0GouBw) channel.
 
 ## Acknowledgements
