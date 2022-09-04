@@ -1,11 +1,14 @@
+/* Google Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600&display=swap');
 
+/* HTML, Body and basic display settings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Hide scrollbar */
 ::-webkit-scrollbar {
     display: none;
 }
@@ -31,6 +34,7 @@ a {
     color: inherit;
 }
 
+/* Heading */
 header {
     padding: 20px;
 }
@@ -42,6 +46,7 @@ header > h1 {
     text-shadow: 2px 2px black;
 }
 
+/* Game Area */
 .game-area {
     border: 2px solid white ;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
@@ -121,6 +126,7 @@ header > h1 {
     font-weight: bold;
 }
 
+/* Buttons rules */
 .btn {
     margin: 0 auto;
     padding: 10px 28px 10px 28px;
@@ -134,6 +140,7 @@ header > h1 {
     transition: all 0.3s ease;
 } 
 
+/* Start Game screen */
 #containerLogo {
     width: 80%;
     font-size: 40px;
@@ -149,6 +156,7 @@ header > h1 {
     text-shadow: 2px 2px black;
 }
 
+/* Start button rules */
 #containerStart {
     width: 400px;
     height: 400px;
@@ -176,7 +184,8 @@ header > h1 {
     outline: none;
     transition: 0.6s ease-in-out;
 }
-  
+
+/* Button animation rules */
 svg {
     position: absolute;
     left: 0;
@@ -204,7 +213,7 @@ svg {
     font-family: 'Signika Negative', sans-serif;
 }
 
-
+/* End screen button */
 #btnReplay {
     margin: 0 auto;
     padding: 10px 28px 10px 28px;
@@ -235,6 +244,7 @@ svg {
     background: #053d74;
 }
 
+/* Start game screen */
 #introScreen {
     position: absolute;
     z-index: 100;
@@ -243,7 +253,7 @@ svg {
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
-
+/* End game screen */
 #endScreen {
     position: absolute;
     z-index: 101;
@@ -273,6 +283,7 @@ svg {
 }
 
 
+/* Instructions page */
 #rules {
     text-align: center;
     padding: 40px;
@@ -309,7 +320,7 @@ svg {
 
 /* Media Queries */
 
-/* Portrait */
+/* Portrait mode */
 
 
 /* For wide desktop monitors 2560px up */
@@ -716,10 +727,10 @@ svg {
 
 }
 
-/* Landscape */
+/* Landscape mode */
 
 
-/* For large mobile device screen with max height of 600px */
+/* For large mobile device screen with max height of 600px in landscape mode */
 
 @media only screen and (max-height: 600px) and (orientation: landscape) {
     
@@ -838,7 +849,7 @@ svg {
 
 }
 
-
+/* For mobile device screen with max height of 400px in landscape mode */
 @media only screen and (max-height: 400px) and (orientation: landscape) {
 
     .game-area {
@@ -928,6 +939,7 @@ svg {
     }
 }
 
+/* For mobile device screen with max height of 375px in landscape mode */
 @media only screen and (max-height: 375px) and (orientation: landscape) {
 
     .game-area {
@@ -1014,6 +1026,7 @@ svg {
     }
 }
 
+/* For small mobile device screen with max height of 320px in landscape mode */
 @media only screen and (max-height: 320px) and (orientation: landscape) {
 
     header > h1 {
