@@ -1,95 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+     <!-- Primary Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     
+    <!-- Local style.css -->
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
+
 </head>
+
 <body>
 
- <div id="introScreen">
-    <div id="introScreenContent">
+    <!-- Start Game page -->
+    <div id="introScreen">
 
-        <div id="containerLogo">
-            <h1>Rock Paper Scissors Lizard Spock</h1>
-        </div>
-        
-        <div id="containerStart">
-            <div class="center">
-                <button class="btnStart" onclick="startGame()">
-                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+        <div id="introScreenContent">
 
-                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            <div id="containerLogo">
 
-                </svg>
-                <span>START GAME</span>
-                </button>
+                <h1>Rock Paper Scissors Lizard Spock</h1>
+
             </div>
-        </div>
-    </div>
-</div>
+        
+            <!-- Start Game button -->
+            <div id="containerStart">
 
-<div id="endScreen">
-    <div id="endScreenContent">
-        <h1 id="txtEndTitle">GAME OVER!</h1>
-        <br>
-        <h2 id="txtEndMessage">You Win, Lose</h2>
-        <div id="btnReplay" class="btn" onclick="replay()">PLAY AGAIN</div>
-    </div>
-</div>
+                <div class="center">
+                
+                    <button class="btnStart" onclick="startGame()">
 
-<header>
-    <h1><a href="index.html">Rock Paper Scissors Lizard Spock</a></h1>
-</header>
+                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
 
+                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
 
+                    </svg>
 
-<div class="game-area">
-    <div class="result">
-        <p>Paper covers rock. You win!</p>
-    </div>
-    
-    <div class="choices">
-        <div class="choice" id="r">
-            <img src="assets/images/rock.png" alt="rock icon">
+                    <span>START GAME</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="choice" id="p">
-            <img src="assets/images/paper.png" alt="paper icon">
-        </div>
-        <div class="choice" id="s">
-            <img src="assets/images/scissors.png" alt="scissors icon">
-        </div>
-        <div class="choice" id="l">
-            <img src="assets/images/lizard.png" alt="lizard icon">
-        </div>
-        <div class="choice" id="v">
-            <img src="assets/images/spock.png" alt="spock icon">
-        </div>
+
     </div>
 
+    <!-- End Screen Page -->
+    <div id="endScreen">
 
-    <div class="score-area">
-        <p class="scores">User <span id="win"> 0</span></p>
-        <p class="scores">Computer <span id="lose"> 0</span></p>
+        <div id="endScreenContent">
+
+            <h1 id="txtEndTitle">GAME OVER!</h1>
+            <br>
+            <h2 id="txtEndMessage">You Win, Lose</h2>
+
+            <div id="btnReplay" class="btn" onclick="replay()">PLAY AGAIN</div>
+
+        </div>
+
     </div>
 
-</div>
+    <!-- Header -->
+    <header>
 
-<div class="container">
-    <a class="btn" href="instructions.html">INSTRUCTIONS</a>
-</div>
+        <h1><a href="index.html">Rock Paper Scissors Lizard Spock</a></h1>
+
+    </header>
 
 
+    <!-- Main Body  -->
+    <div class="game-area">
 
+        <div class="result">
+
+            <p>Paper covers rock. You win!</p>
+
+        </div>
+
+        <!-- Icons -->
+        <div class="choices">
+
+            <div class="choice" id="r">
+
+                <img src="assets/images/rock.png" alt="rock icon">
+
+            </div>
+
+            <div class="choice" id="p">
+
+                <img src="assets/images/paper.png" alt="paper icon">
+
+            </div>
+
+            <div class="choice" id="s">
+
+                <img src="assets/images/scissors.png" alt="scissors icon">
+
+            </div>
+
+            <div class="choice" id="l">
+
+                <img src="assets/images/lizard.png" alt="lizard icon">
+
+            </div>
+
+            <div class="choice" id="v">
+
+                <img src="assets/images/spock.png" alt="spock icon">
+
+            </div>
+
+        </div>
+
+        <!-- Scores  -->
+        <div class="score-area">
+
+            <p class="scores">User <span id="win"> 0</span></p>
+            <p class="scores">Computer <span id="lose"> 0</span></p>
+
+        </div>
+
+    </div>
+
+    <!-- Instructions button -->
+    <div class="container">
+
+        <a class="btn" href="instructions.html">INSTRUCTIONS</a>
+
+    </div>
+
+    <!-- Internal Script -->
 
     <script src="assets/js/app.js"></script>
+
 </body>
+
 </html>
