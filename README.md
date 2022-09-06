@@ -60,11 +60,9 @@ The live link can be found here - [Rock Paper Scissors Lizard Spock](https://fun
   * Dark Blue shade #053d74 for the hover button color change.
   * Light Blue shade #91C9FF for buttons borders.
  
- The Dark Blue and White shades should compliment each other without being over powering to the eyes.
+* The Dark Blue and White shades should compliment each other without being over powering to the eyes.
 
-I chose a default Black color for the body in the instructions page as more contrast was needed with the light blue shade.
-
-User score is colored with Green, Computer score is colored in Red.
+* User score is colored with Green, Computer score is colored in Red.
 
 * The selected icon is highlighted by clicking on it with Green shades #4dcc7d and #30b539 when the user choice is the winning one.
 * The selected icon is highlighted by clicking on it with Red shades #fc121a and #d01115 when the user choice is the losing one.
