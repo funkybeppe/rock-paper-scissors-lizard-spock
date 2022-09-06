@@ -136,6 +136,7 @@ function endGame() {
 // Remove the end game screen and reset the scores
 function replay() {
     document.getElementById('endScreen').style.display = 'none';
+    result_p.innerHTML = "Make your choice"
     restartScores();
 }
   
