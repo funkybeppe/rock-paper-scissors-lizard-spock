@@ -133,7 +133,7 @@ function endGame() {
     document.getElementById('endScreen').style.display = 'block';
 }
 
-// Remove the end game screen and reset the scores
+// Remove the end game screen, reset the result message and reset the scores
 function replay() {
     document.getElementById('endScreen').style.display = 'none';
     result_p.innerHTML = "Make your choice"
