@@ -41,9 +41,11 @@ function win(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
 
-    // Throw a message with the selections and if the 5th win has been reached will throw the end game screen too
+    
+    // Throw a message with the selections and if the 5th win is reached will throw the end game screen too
     if (userScore < 5) {
-        result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! 😄 `;
+        // add next to user and computer selection a small word with green color for user and red for computer
+        result_p.innerHTML = `${convertToWord(userChoice)}<sub id ="subUser"> user</sub> beats ${convertToWord(computerChoice)}<sub id ="subComp"> comp</sub>. You win! 😄 `;
     } else if(userScore === 5){
         txtEndTitle.innerHTML=`GAME OVER!`;
         txtEndMessage.innerHTML=`You Win 🎉`;
@@ -63,7 +65,8 @@ function lose(userChoice, computerChoice) {
 
     // Throw a message with the selections and if the 5th win has been reached will throw the end game screen too
     if (computerScore < 5){
-        result_p.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose 😢 `;
+        // add next to user and computer selection a small word with green color for user and red for computer 
+        result_p.innerHTML = `${convertToWord(computerChoice)}<sub id ="subComp"> comp</sub> beats ${convertToWord(userChoice)}<sub id ="subUser"> user</sub>. You lose 😢 `;
     } else if(computerScore === 5){
         txtEndTitle.innerHTML=`GAME OVER!`;
         txtEndMessage.innerHTML=`You lose 😔`;
@@ -78,7 +81,8 @@ function lose(userChoice, computerChoice) {
 // When computer and player selection is the same throws a message and does not update the score
 function draw(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a draw 😐 `;
+    // add next to user and computer selection a small word with green color for user and red for computer
+    result_p.innerHTML = `${convertToWord(userChoice)}<sub id ="subUser"> user</sub> equals ${convertToWord(computerChoice)}<sub id ="subComp"> comp</sub>. It's a draw 😐 `;
 
     // Adds a yellow glow effect to the selection
     userChoice_div.classList.add('yellow-glow');

@@ -68,6 +68,17 @@ header > h1 {
     text-align: center;
 }
 
+
+#subUser {
+    color: green;
+    font-size: 15px;
+}
+
+#subComp {
+    color: red;
+    font-size: 15px;
+}
+
 .choices {
     text-align: center;
     margin-top: 40px;
@@ -498,6 +509,14 @@ svg {
 
     .choice {
         margin: 0 10px;
+    }
+
+    #subUser {
+        font-size: 10px;
+    }
+    
+    #subComp {
+        font-size: 10px;
     }
 
     .score-area {
