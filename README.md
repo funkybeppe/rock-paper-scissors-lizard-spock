@@ -218,7 +218,7 @@ The live Project can be found [here](https://funkybeppe.github.io/rock-paper-sci
 
 ### Tests Results
 
-![Screenshot 2022-09-01 at 16 26 41](https://user-images.githubusercontent.com/105980082/187952842-368c9602-4d5d-4baa-b953-b7f46a641e47.png)
+![Screenshot 2022-09-08 at 12 41 11](https://user-images.githubusercontent.com/105980082/189113353-29202cb2-5c20-444b-b932-4c530d8bdae1.png)
 
 
 ## Bugs
