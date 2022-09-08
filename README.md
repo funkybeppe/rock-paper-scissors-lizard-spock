@@ -125,11 +125,12 @@ The video was taken from [YouTube](https://www.youtube.com/).
 
   * The game area includes the actual game.
   * The message shows the user choice compared to computer choice, and the outcome (win, lose, draw).
+  * A small colored word is showing next to the user and computer choice, making the choice pick easy to understand.
   * The images are clickable and they represent the choices.
   * The white circle is colored after a click according to the choice outcome.
   * At the bottom of the game area we can find the score tracker: user is green, computer in red.
   
-![Screenshot 2022-09-03 at 15 59 28](https://user-images.githubusercontent.com/105980082/188277602-eebff23e-e2ce-4f29-b333-ac8681d1433c.png)
+![Screenshot 2022-09-08 at 12 21 38](https://user-images.githubusercontent.com/105980082/189110067-abcfc922-813e-403d-aa7a-753c3104b341.png)
 
 
 * The instructions page
