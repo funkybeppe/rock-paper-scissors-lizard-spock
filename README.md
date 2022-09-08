@@ -231,10 +231,12 @@ I have soon found out it was better to create an end screen page that partially 
 * HTML
 
   * No errors were returned when passing through the official W3C validator.
+  ![Screenshot 2022-09-08 at 12 34 53](https://user-images.githubusercontent.com/105980082/189112316-bd4c4537-1546-4e6d-824d-9344338ffad1.png)
 
 * CSS
 
   * No errors were returned when passing through the official W3C CSS validator.
+  ![Screenshot 2022-09-08 at 12 34 53](https://user-images.githubusercontent.com/105980082/189112334-7d02fbe0-cf5e-419b-bb5a-0b08a757c5f1.png)
 
 * JS 
 
